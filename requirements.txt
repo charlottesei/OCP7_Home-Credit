@@ -1,9 +1,0 @@
-numpy==1.19.5
-shap==0.39.0
-streamlit==0.84.2
-pickleshare==0.7.5
-pandas==1.1.5
-Pillow==7.1.2
-seaborn==0.11.1
-matplotlib==3.2.2
-matplotlib-inline==0.1.2
