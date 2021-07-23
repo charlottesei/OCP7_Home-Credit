@@ -13,7 +13,7 @@ z = ZipFile("X_test.zip")
 X_test = pd.read_csv(z.open('X_test.csv'))
 
 # loading the trained model
-classifier_in = open('/content/drive/My Drive/Projet 7/classifier.pkl', 'rb') 
+classifier_in = open('classifier.pkl', 'rb') 
 classifier = pickle.load(classifier_in)
 
 # target
@@ -28,7 +28,7 @@ for i in range(0,len(prob)) :
 X_test_target['TARGET']=targetpred
 
 # loading shap_values
-shap_in = open('/content/drive/My Drive/Projet 7/shap.pkl', 'rb') 
+shap_in = open('shap.pkl', 'rb') 
 shap_values = pickle.load(shap_in)
 explainer = shap.KernelExplainer(classifier.predict_proba, X_test, link = 'logit') 
 
