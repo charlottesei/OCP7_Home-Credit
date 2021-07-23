@@ -6,6 +6,7 @@ import shap
 import numpy as np
 import PIL
 import seaborn as sns
+from zipfile import ZipFile
 import matplotlib.pyplot as plt
 
 z = ZipFile("X_test.zip")
