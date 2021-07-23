@@ -8,10 +8,6 @@ import PIL
 import seaborn as sns
 from zipfile import ZipFile
 import matplotlib.pyplot as plt
-! pip install -U imbalanced-learn
-from imblearn.pipeline import Pipeline as imb_pipeline
-from imblearn.pipeline import make_pipeline as make_imb_pipeline
-
 
 z = ZipFile("X_test.zip")
 X_test = pd.read_csv(z.open('X_test.csv'))
