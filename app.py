@@ -8,8 +8,8 @@ import PIL
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-X_test = pd.read_csv('/content/drive/My Drive/Projet 7/X_test.csv')
-X_test = X_test.iloc[0:2000,:]
+z = ZipFile("X_test.zip")
+X_test = pd.read_csv(z.open('X_test.csv'))
 
 # loading the trained model
 classifier_in = open('/content/drive/My Drive/Projet 7/classifier.pkl', 'rb') 
