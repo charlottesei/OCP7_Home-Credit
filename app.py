@@ -8,7 +8,7 @@ import PIL
 import seaborn as sns
 from zipfile import ZipFile
 import matplotlib.pyplot as plt
-pip install -U imbalanced-learn
+! pip install -U imbalanced-learn
 from imblearn.pipeline import Pipeline as imb_pipeline
 from imblearn.pipeline import make_pipeline as make_imb_pipeline
 
