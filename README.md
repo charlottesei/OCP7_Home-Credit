@@ -20,6 +20,3 @@ Source des données : https://www.kaggle.com/c/home-credit-default-risk/data
 * Utiliser un logiciel de version de code pour assurer l’intégration du modèle
 * Rédiger une note méthodologique afin de communiquer sa démarche de modélisation
 * Réaliser un dashboard pour présenter son travail de modélisation
-
-
-Lien vers le dashboard: https://home-credit-sei.herokuapp.com/
