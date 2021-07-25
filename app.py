@@ -8,6 +8,7 @@ import PIL
 import seaborn as sns
 from zipfile import ZipFile
 import matplotlib.pyplot as plt
+from imblearn.over_sampling import RandomOverSampler
 
 z = ZipFile("X_test.zip")
 X_test = pd.read_csv(z.open('X_test.csv'))
