@@ -57,7 +57,7 @@ def st_shap(plot, height=None):
 
 # main function  
 def main():       
-    st.image(PIL.Image.open('/content/drive/My Drive/Projet 7/logo.png'), width = 150)
+    st.image(PIL.Image.open('logo.png'), width = 150)
     st.title('Home Credit Default Risk')
     st.write('## Présentation des informations personnelles du client et décision d\'octroi du crédit')
     
@@ -68,7 +68,7 @@ def main():
       
     # shap features
     st.write('## Visualisation des features les plus importantes et leur impact sur le défault de paiement')
-    st.image(PIL.Image.open('/content/drive/My Drive/Projet 7/shap features.png'), width = 600)
+    st.image(PIL.Image.open('shap features.png'), width = 600)
     st.write('Exemple d\'interprétation: Plus la valeur de "Ext_source_2" est importante, plus la probabilité de faillite diminue')
 
     # print prediction 
